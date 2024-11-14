@@ -10,3 +10,11 @@
 .title {
   text-align: center;
 }
+
+.btn-cont {
+  font-size: 16px;
+}
+
+.btn-cont i {
+  color: black;
+}

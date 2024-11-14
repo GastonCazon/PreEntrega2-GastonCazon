@@ -1,13 +1,14 @@
-import ItemListContainer from "./components/ItemListContainer";
-import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import NavBar from "./components/NavBar/NavBar";
 import "./App.css";
+import Contador from "./components/Hooks/Contador";
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
-      <ItemListContainer greeting={"Bienvenido"} />
-    </>
+      {/* <Contador /> */}
+    </div>
   );
 }
 

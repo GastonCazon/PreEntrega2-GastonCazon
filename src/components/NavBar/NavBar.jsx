@@ -1,6 +1,6 @@
-import CartWidget from "./CartWidget";
 import "./NavBar.css";
-import Logo from "./assets/logo.svg";
+import CartWidet from "../CardWidget/CartWidget";
+import Logo from "../assets/logo.svg";
 
 export default function NavBar() {
   return (
@@ -15,15 +15,12 @@ export default function NavBar() {
               <a href="#">Inicio</a>
             </li>
             <li>
-              <a href="#">Productos</a>
-            </li>
-            <li>
-              <a href="#">Ofertas</a>
+              <a href="#">Catalogo</a>
             </li>
           </ul>
         </div>
         <div className="widget">
-          <CartWidget />
+          <CartWidet />
         </div>
       </div>
     </>
