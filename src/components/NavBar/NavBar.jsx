@@ -1,6 +1,6 @@
 import "./NavBar.css";
 import CartWidet from "../CardWidget/CartWidget";
-import Logo from "../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 
 export default function NavBar() {
   return (
